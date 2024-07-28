@@ -1,0 +1,83 @@
+.main{
+    background-color: #b69156;
+    height: 80px;    
+    border-radius: 20px;
+}
+.navi{
+    text-align: right;
+}
+.navi a{
+    padding: 2.2%;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: inline-flex;
+    
+}
+#logo{
+    height: 2.4cm;
+    width: 5cm;
+    float: left;
+}
+.navi a:hover{
+    color: rgb(3, 2, 2);
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: azure;
+    text-decoration-thickness: 5px;
+}
+body{
+    background-image: url(images/gbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.image{
+    padding-top: 20px;
+    max-height: 20%;
+    max-width: 100%;
+    text-align: center;
+    display:flexbox;
+    justify-content: space-evenly;
+    
+}
+.image img{
+    height: 5cm;
+    width: 7cm;
+    border: 10px white solid;
+}
+.image img:hover{
+    height: 8cm;
+    width: 8cm;
+    border: 10px rgb(14, 13, 13) solid;
+    
+}
+.heading{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: rgb(252, 248, 244);
+    max-width: 100%;
+}
+.quote{
+    padding-right: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    font-family:sans-serif;
+    color: rgb(247, 244, 240);
+    max-width: 100%;
+    
+}
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(240, 226, 221);
+    color: rgb(19, 14, 14);
+    margin-top: auto; 
+}

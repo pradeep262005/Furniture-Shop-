@@ -1,0 +1,60 @@
+.main{
+    background-color: #b69156;
+    height: 80px;    
+    border-radius: 20px;
+}
+body{
+    background-image: url(images/ab3.jpg);
+    background-size: cover;
+}
+.navi{
+    text-align: right;
+}
+.navi a{
+    padding: 2.2%;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: inline-flex;
+    
+}
+.navi a:hover{
+    color: rgb(3, 2, 2);
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: azure;
+    text-decoration-thickness: 5px;
+}
+#logo{
+    height: 2.5cm;
+    width: 5cm;
+    float: left;
+}
+form{
+    align-items: center;
+    height: 10cm;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    margin: auto;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-radius: 20px;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-reg input{
+    padding: 8px;
+    justify-content: space-evenly;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(240, 226, 221);
+    color: rgb(19, 14, 14);
+    margin-top: 50%; 
+}
